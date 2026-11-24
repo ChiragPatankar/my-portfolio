@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { profile } from '../data/profile'
+import { ResumeLink } from './ResumeLink'
 
 const YEAR = new Date().getFullYear()
 
@@ -32,6 +33,7 @@ export function Contact() {
         <button className="btn" onClick={copy}>
           {copied ? 'Copied ✓' : 'Copy email'}
         </button>
+        <ResumeLink />
       </div>
       <ul className="socials reveal">
         {profile.socials.map((s) => (

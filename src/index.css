@@ -272,6 +272,33 @@ button {
   display: flex;
   gap: 8px;
 }
+.nav__resume {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 38px;
+  padding: 0 14px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  color: var(--text-muted);
+  font-size: 14px;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+.nav__resume:hover,
+.nav__resume:focus-visible {
+  color: var(--text);
+  border-color: var(--line-strong);
+  background: var(--accent-soft);
+}
+.dl-icon {
+  flex: none;
+  transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+@media (hover: hover) {
+  a:hover > .dl-icon {
+    transform: translateY(2px);
+  }
+}
 .nav__menu {
   display: none;
   flex-direction: column;
@@ -893,6 +920,9 @@ button {
   }
   .icon-btn {
     width: 44px;
+    height: 44px;
+  }
+  .nav__resume {
     height: 44px;
   }
   .nav__logo {

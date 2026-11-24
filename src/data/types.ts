@@ -62,6 +62,8 @@ export interface Profile {
   location: string
   /** Path under public/, e.g. '/headshot.jpg'. */
   photo?: string
+  /** Path under public/ to a PDF, e.g. '/resume.pdf'. */
+  resume?: string
   summary: string[]
   email: string
   socials: Link[]

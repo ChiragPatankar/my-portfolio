@@ -11,6 +11,7 @@ export const profile: Profile = {
   headline: 'I build AI systems that ship: agent tooling, RAG platforms and MCP servers.',
   location: 'Seattle, WA',
   photo: '/headshot.jpg',
+  resume: '/Chirag_Patankar_Resume.pdf',
   summary: [
     "I'm an AI engineer and M.S. in Artificial Intelligence student at Northeastern University in Seattle. I like taking ideas from a blank repo to something real people use.",
     'As a part-time AI engineer at Crossborder Business Solutions, I embedded with e-commerce clients and shipped LLM support chatbots that automated about 40% of repetitive queries. On my own, I build developer tools for AI agents: Flake Doctor, validated on 11,000+ CI runs, and LogAnalyzer MCP, with 490+ npm downloads.',

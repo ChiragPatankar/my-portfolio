@@ -1,5 +1,6 @@
 import type { CSSProperties } from 'react'
 import { profile } from '../data/profile'
+import { ResumeLink } from './ResumeLink'
 import { Terminal } from './Terminal'
 
 /** Delay index for the staggered entrance animation. */
@@ -45,6 +46,7 @@ export function Hero() {
           <a href="#work" className="btn btn--primary">
             See my work <span className="btn__arrow" aria-hidden>→</span>
           </a>
+          <ResumeLink label="Resume" />
           <a href="#contact" className="btn">
             Get in touch
           </a>

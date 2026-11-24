@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { useActiveSection, useScrollProgress, useTheme } from '../hooks'
 import { profile } from '../data/profile'
+import { ResumeLink } from './ResumeLink'
 
 const sections = [
   { id: 'work', label: 'Work' },
@@ -55,6 +56,7 @@ export function Nav() {
         </nav>
 
         <div className="nav__actions">
+          <ResumeLink className="nav__resume" label="Resume" />
           <button
             className="icon-btn"
             onClick={toggleTheme}
