@@ -6,6 +6,8 @@
 
 I build AI systems that ship: agent tooling, RAG platforms and MCP servers.
 
+**🌐 [chirag-patankar.vercel.app](https://chirag-patankar.vercel.app)**
+
 [![GitHub](https://img.shields.io/badge/GitHub-ChiragPatankar-181717?logo=github)](https://github.com/ChiragPatankar)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Chirag%20Patankar-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chirag-patankar-67a55a25b/)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-ChiragPatankar-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ChiragPatankar)
@@ -245,7 +247,7 @@ Replace `public/headshot.jpg` with a square image, or point `photo` in `profile.
 - [ ] Patent application number and ResearchGate preprint link
 - [ ] Deployed link for TRUSTLINE: ABYSS and teammate names
 - [ ] Hugging Face Space for the image mosaic
-- [ ] Live URL for this site
+- [x] Live URL for this site: https://chirag-patankar.vercel.app
 
 ---
 
