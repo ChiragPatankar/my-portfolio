@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="docs/avatar.svg" width="128" height="128" alt="Chirag Patankar">
-
 # Chirag Patankar
 
 **AI Engineer · M.S. in Artificial Intelligence @ Northeastern University, Seattle**
