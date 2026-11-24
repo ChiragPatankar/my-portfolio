@@ -60,6 +60,8 @@ export interface Profile {
   role: string
   headline: string
   location: string
+  /** Path under public/, e.g. '/headshot.jpg'. */
+  photo?: string
   summary: string[]
   email: string
   socials: Link[]
